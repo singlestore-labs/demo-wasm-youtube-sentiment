@@ -1,0 +1,2 @@
+sentiment: func(input: string) -> float64
+sentiment-t: func(input: string) -> list<float64>
