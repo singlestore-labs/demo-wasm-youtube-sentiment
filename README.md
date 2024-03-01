@@ -1,5 +1,7 @@
 # Demo of sentiment analysis of Youtube trending videos using SingleStore and Wasm
 
+**Attention**: The code in this repository is intended for experimental use only and is not fully tested, documented, or supported by SingleStore. Visit the [SingleStore Forums](https://www.singlestore.com/forum/) to ask questions about this repository.
+
 This project demonstrates how to use SingleStore + Wasm to do sentiment analysis on data. In this case we are using data from Kaggle which can be [found here](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset).
 
 To run this demo you will need to have access to a SingleStore cluster with Wasm enabled. The easiest way to do that is using our official Docker image which you can run locally on your computer. You can find [documentation on this image here](https://github.com/singlestore-labs/singlestoredb-dev-image).
